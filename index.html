@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+	<head>
+		<meta name="viewport" content="device-width, initial-scale=1.0/">
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="base.css">
+		<link href="favicon.ico" type="image" rel="icon">
+		<link href="https://fonts.googleapis.com/css?family=Homenaje|Sigmar+One" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+	
+		<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+	</head>
+	
+	<title>Ansal Rahman</title>
+	
+	<body>
+		<nav>
+			<div class="container">
+				<img class="mnicon" src="mn.png" alt="Click to expand Menu"/>
+				<ul class="menu">
+					<li class="mk"><a href="#">HOME</a></li>
+					<li><a href="work.html">WORKS</a></li>
+					<li><a href="gallery.html">PHOTO GALLERY</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+		</nav>
+		<header class="container">
+			<h1>ANSAL RAHMAN</h1>
+		</header>
+		
+		<img class="uo" src="pp.jpg" width="30.0%" height="30.0%" alt=""/>
+		
+		<article class="container set">
+			<h2>AR</h2>
+			<p class="pop">
+				Ansal Rahman (short as AR) Freelance singer and Anchor.Also a dupe artist.He lives in Perumbavoor,Kerala.Completed Civil Engineering at MES ITI and a former student of SSV,Airapuram.family contains Father(Abdul Rahman),mother (Aisha Abdul Rahman) and brother Anas Raman.Reported the status as Single and a roll model of many.
+			</p>
+		</article>
+		<footer>
+			<div class="container clearfix">
+				<div class="one-by-two">
+					<h3>Contact Us</h3>
+					<address>
+						48_s5_CSE<br/>
+						ICET<br/>
+						Muvatupuzha<br/>
+						ekm<br/><br/>
+						<a href="rahsal1996@gmail.com">rahsal1996@gmail.com</a>
+					</address>
+				</div><!--1/2-->
+				<div class="one-by-two register">
+					<h3>For more Updates</h3>
+					<form>
+						<input type="text" id="name" placeholder="Name" />
+						<input type="text" id="email" placeholder="Email@address.com" />
+						<button type="submit">SUBSCIBE</button>
+					</form>
+					<br/>	
+				</div><!--1/2-->
+				<div style="clear:both;"></div>
+			</div><!--container-->
+			<span class="copy">&copy;copyright 2016 RA'sal</span>
+		</footer>
+		
+		<!--script-->
+		
+		<script>
+			$(function() {
+				$nav=$('.menu');
+			
+				$('.mnicon').click(function(){
+					$nav.slideToggle();
+					});
+				$(window).resize(function(){
+					if ( $(window).width()>=640 ){
+						$nav.show();
+					}else{
+						$nav.hide();
+					}
+				});
+			
+			});
+		</script>
+	</body>
+</html>
